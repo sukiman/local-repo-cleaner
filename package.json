@@ -1,0 +1,24 @@
+{
+  "name": "local-repo-cleaner",
+  "version": "1.0.0",
+  "description": "Remove local git branches whose remote counterparts are already deleted",
+  "bin": {
+    "local-repo-cleaner": "./bin/clean-local-branches.js"
+  },
+  "main": "./bin/clean-local-branches.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ./bin/clean-local-branches.js",
+    "clean": "node ./bin/clean-local-branches.js"
+  },
+  "keywords": [
+    "git",
+    "branch",
+    "cleanup",
+    "cli"
+  ],
+  "license": "MIT",
+  "private": true
+}
