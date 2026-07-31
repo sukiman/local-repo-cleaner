@@ -19,6 +19,7 @@
     "cleanup",
     "cli"
   ],
+  "author": "sukiman <sukiman.hung@gmail.com>",
   "license": "MIT",
   "private": true
 }
